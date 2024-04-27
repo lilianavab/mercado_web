@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "roboto_condensedregular";
+  src: url("./../font/robotocondensed-regular.woff2") format("woff2"), url("./../font/robotocondensed-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "roboto_condensedregular", sans-serif;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+  .producto-card {
+    margin-bottom: 2px; 
+    cursor: pointer;
+    text-align: center;
+    padding: 15px;
+}
+  
+  .producto-img {
+    width: 150px; 
+    height:150px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .modal-producto {
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+  }
+  
+  .bg-verde {
+    background-color: #008000;
+  }
+  
+  .modal-body img {
+    max-width: 60px;
+    height: auto; 
+    margin-right: 10px; 
+    
+  }
+  
